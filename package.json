@@ -1,11 +1,11 @@
 {
-  "name": "node-red-contrib-bizwechat",
-  "version": "1.1.2",
-  "description": "企业微信消息接收转发至NodeRed",
+  "name": "node-red-contrib-bizwechat-apiproxy",
+  "version": "1.2.0",
+  "description": "企业微信消息接收转发至NodeRed-支持反代企微接口",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlashSoft/node-red-contrib-bizwechat.git"
+    "url": "git+https://github.com/goxofy/node-red-contrib-bizwechat-apiproxy.git"
   },
   "keywords": [
     "node-red",
@@ -20,12 +20,12 @@
       "bizwechat-configurator": "bizwechat-configurator.js"
     }
   },
-  "author": "FlashSoft",
+  "author": "goxofy",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/FlashSoft/node-red-contrib-bizwechat/issues"
+    "url": "https://github.com/goxofy/node-red-contrib-bizwechat-apiproxy/issues"
   },
-  "homepage": "https://github.com/FlashSoft/node-red-contrib-bizwechat#readme",
+  "homepage": "https://github.com/goxofy/node-red-contrib-bizwechat-apiproxy#readme",
   "dependencies": {
     "axios": ">=0.18.1",
     "express": "^4.16.4",

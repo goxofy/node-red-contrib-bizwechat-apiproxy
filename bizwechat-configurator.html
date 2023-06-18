@@ -36,6 +36,9 @@ RED.nodes.registerType('bizwechat-configurator', {
       value: '',
       required: true
     },
+    apiproxy: {
+      value: ''
+    },
     client_id: {
       value: ''
     },
@@ -77,6 +80,10 @@ RED.nodes.registerType('bizwechat-configurator', {
     <div class="form-row">
       <label for="node-config-input-aeskey"><i></i>EncAESKey</label>
       <input type="text" id="node-config-input-aeskey" placeholder="微信应用回调EncodingAESKey">
+    </div>
+    <div class="form-row">
+      <label for="node-config-input-apiproxy"><i></i>API Proxy</label>
+      <input type="text" id="node-config-input-apiproxy" placeholder="微信API接口反向代理地址(末尾不带/)">
     </div>
     <div class="form-row">
       <label style="width: 100%; text-align: center; color: #ccc;">以下内容为开启语音转文字时选填</label>
